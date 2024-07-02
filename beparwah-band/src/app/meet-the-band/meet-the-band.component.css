@@ -1,0 +1,25 @@
+.crazy-font {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Example of a "crazy" font */
+    color: #007bff; /* Example color */
+    text-transform: uppercase;
+  }
+  
+  .img-fluid {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  

@@ -1,13 +1,42 @@
-.social-icons {
-    font-size: 24px;
-  }
-  
-  .social-icons a {
-    color: #333; /* Adjust icon color as needed */
-    margin: 0 10px;
-  }
-  
-  .social-icons a:hover {
-    color: #007bff; /* Change color on hover */
-  }
-  
+/* Ensure the subscribe button is next to the input field */
+form.d-flex input[type="email"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+form.d-flex button {
+  white-space: nowrap;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #3b5998; /* You can change this to match your theme */
+}
+
+.social-icons a:hover {
+  color: #000; /* You can change this to match your theme */
+}
+
+footer .row {
+  margin-bottom: 20px;
+}
+
+footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .col-md-4 {
+  padding: 20px;
+}
+
+footer .col-md-4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer .col-md-4 h5,
+footer .col-md-6 h5 {
+  margin-bottom: 15px;
+}

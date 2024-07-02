@@ -1,0 +1,39 @@
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Live Song Request</h2>
+  <div class="row">
+    <!-- Form Section -->
+    <div class="col-md-8">
+      <form (submit)="submitForm()">
+        <div class="form-group">
+          <label for="songName" class="sr-only">Song Name:</label>
+          <input type="text" id="songName" class="form-control" placeholder="Song Name" #songNameInput required>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-9">
+            <label for="dedicatedTo" class="sr-only">Dedicated To:</label>
+            <input type="text" id="dedicatedTo" class="form-control" placeholder="Dedicated To" #dedicatedToInput required>
+          </div>
+          <div class="form-group col-md-3">
+            <label for="email" class="sr-only">Email:</label>
+            <input type="email" id="email" class="form-control" placeholder="Email" #emailInput required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message" class="sr-only">Message:</label>
+          <textarea id="message" class="form-control" placeholder="Message" #messageInput rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-custom">Send</button>
+      </form>
+    </div>
+    <!-- Contact Information Section -->
+    <div class="col-md-4">
+      <div class="contact-info">
+        <p class="address">123 Music Avenue, Music City</p>
+        <p class="phone">Phone: (123) 456-7890</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>

@@ -1,0 +1,14 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Meet the Band Members</h2>
+    <div class="row mb-4" *ngFor="let member of bandMembers; let i = index">
+      <div class="col-md-4 text-center" [ngClass]="{'order-md-2': i % 2 !== 0, 'order-md-1': i % 2 === 0}">
+        <img [src]="member.image" class="img-fluid rounded" alt="{{member.name}}">
+      </div>
+      <div class="col-md-8" [ngClass]="{'order-md-1': i % 2 !== 0, 'order-md-2': i % 2 === 0}">
+        <h3 class="crazy-font">{{member.name}}</h3>
+        <h5 class="text-muted">{{member.role}}</h5>
+        <p>{{member.description}}</p>
+      </div>
+    </div>
+  </div>
+  

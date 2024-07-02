@@ -1,0 +1,16 @@
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Gallery</h2>
+  <div class="row">
+    <div class="col-12">
+      <button *ngIf="currentIndex > 0" class="btn btn-primary float-left mt-2" (click)="scrollLeft()">&lt;</button>
+      <button *ngIf="currentIndex < maxIndex" class="btn btn-primary float-right mt-2" (click)="scrollRight()">&gt;</button>
+      <div class="d-flex overflow-hidden">
+        <div class="d-flex" style="width: 300%; transition: transform 0.5s ease;" [ngStyle]="{'transform': 'translateX(' + translateX + '%)'}">
+          <div *ngFor="let image of images" class="col-md-4">
+            <img [src]="image" class="img-fluid rounded mb-3" alt="Gallery Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
