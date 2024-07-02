@@ -1,0 +1,222 @@
+body {
+    background-color:#2e2d2d;
+}
+#topimage {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    width: 250px; 
+    height: auto;  
+}
+#center {
+    position: absolute;
+    top: 400px;
+    left: 390px;
+    width: 600px; 
+    height: auto;  
+}
+#cloud {
+    position: absolute;
+    top: 750px;
+    left: 600px;
+    width: 600px; 
+    height: auto;  
+}
+.cloudtext,.cloudtext1{
+    white-space: nowrap;
+    position: absolute;
+    top: 925px;
+    left: 750px;
+    width: 100px;  
+    height: auto;  
+    font-size: 30px; 
+    color: white;
+}
+.cloudtext1{
+    top:975px;
+    left:800px;
+}
+.home {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    width: 100px;  
+    height: auto;  
+    font-size: 30px;  
+}
+.biography {
+    position: absolute;
+    top: 50px;
+    left: 475px;
+    width: 100px;  
+    height: auto;  
+    font-size: 30px;  
+}
+.gallery {
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    width: 100px;  
+    height: auto; 
+    font-size: 30px;  
+}
+.repertoire {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    width: 100px;  
+    height: auto;  
+    font-size: 30px;  
+}
+.contact {
+    position: absolute;
+    top: 50px;
+    left: 975px;
+    width: 100px;  
+    height: auto;  
+    font-size: 30px;  
+}
+.Biography1{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    width: 100px;  
+    height: auto;  
+    font-size: 60px;  
+}
+.sahil{
+    white-space: nowrap;
+    position: absolute;
+    top: 1200px;
+    left: 650px;
+    width: 100px;  
+    height: auto;  
+    font-size: 60px;
+    color: white;
+}
+.story{
+    white-space: nowrap;
+    position: absolute;
+    top: 1400px;
+    left: 50px;
+    width: 100px;  
+    height: auto;  
+    font-size: 50px;
+    color: white;
+}
+.storytext{
+    white-space: nowrap;
+    position: absolute;
+    top: 1500px;
+    left: 50px;
+    width: 100px;  
+    height: auto;  
+    font-size: 30px;
+    color: white;
+}
+.footer{
+    margin: 0;
+    position: absolute;
+    top:2000px;
+    left:0px;
+    width: 1275px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    background-color:black;
+    display: flex;
+}
+#footerimage{
+    position: absolute;
+    top: 2050px;
+    left: 30px;
+    width: 300px; 
+    height: auto;
+}
+.usecase{
+    white-space: nowrap;
+    position: absolute;
+    top: 2050px;
+    left: 450px;
+    width: 100px;  
+    height: auto;  
+    font-size: 20px;
+    color: white;
+}
+.company{
+    white-space: nowrap;
+    position: absolute;
+    top: 2030px;
+    left: 700px;
+    width: 100px;  
+    height: auto;  
+    font-size: 20px;
+    color: white;
+}
+.subscribe{
+    white-space: nowrap;
+    position: absolute;
+    top: 2020px;
+    left: 850px;
+    width: 100px;  
+    height: auto;  
+    font-size: 20px;
+    color: white;
+}
+.subscribe1{
+    position: absolute;
+    top: 2120px;
+    left: 850px;
+    width: 230px;  
+    height: 25px; 
+}
+.subscribe2{
+    background: linear-gradient(135deg, #e64600, #ffd700);
+    position: absolute;
+    top: 2120px;
+    left: 1090px;
+    width: 100px;  
+    height: 33px;
+    color: white;
+}
+.connect{
+    white-space: nowrap;
+    position: absolute;
+    top: 2165px;
+    left: 850px;
+    width: 100px;  
+    height: auto;  
+    font-size: 20px;
+    color: white;
+}
+.facebook{
+    position: absolute;
+    top: 2200px;
+    left: 840px;
+    width: 35px; 
+    height: auto; 
+}
+.insta{
+    position: absolute;
+    top: 2200px;
+    left: 890px;
+    width: 35px; 
+    height: auto; 
+}
+.youtube{
+    position: absolute;
+    top: 2200px;
+    left: 950px;
+    width: 35px; 
+    height: auto; 
+}
+.background {
+    height: 100%;
+    background-color: black;
+    background-image: radial-gradient(white 20px, transparent 20px);
+    background-size: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
