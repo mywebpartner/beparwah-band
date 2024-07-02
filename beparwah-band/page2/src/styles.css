@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(to right, #1c1c1c, #333333);
+    font-family: 'Arial', sans-serif;
+}
+
+.parent-container{
+    background: linear-gradient(to right, #1c1c1c, #333333);
+}
+
+.card-container{
+    background: linear-gradient(to right, #1c1c1c, #333333);
+    
+}
+
+.past-events {
+    background: linear-gradient(to right, #1c1c1c, #333333);
+}
+
+.past-events h2 {
+    color: #ffffff;
+}
+
+.event-card {
+    background: linear-gradient(to right, #1c1c1c, #333333);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-card img {
+    border: none;
+}
+
+.event-card h3 {
+    color: whitesmoke;
+}
+
+.event-card p {
+    color: white;
+}
+
+.circle-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar{
+    background: linear-gradient(to right, #1c1c1c, #070303);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: row;
+}
+
+.container-footer{
+    background-color: black;
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color:whitesmoke;
+    font-size: 30px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.btn{
+    background-color: rgb(255, 132, 0);
+}

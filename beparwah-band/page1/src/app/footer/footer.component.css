@@ -1,0 +1,24 @@
+.container-footer{
+    background-color: black;
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color:whitesmoke;
+    font-size: 30px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.btn{
+    background-color: rgb(255, 132, 0);
+}
