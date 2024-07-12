@@ -1,42 +1,24 @@
-/* Ensure the subscribe button is next to the input field */
-form.d-flex input[type="email"] {
-  flex: 1;
-  margin-right: 10px;
+.container-footer{
+  background-color: black;
+  color: whitesmoke;
+  margin: 0 auto;
 }
 
-form.d-flex button {
-  white-space: nowrap;
+.social-icons {
+  margin-top: 10px;
 }
 
 .social-icons a {
+  color:whitesmoke;
+  font-size: 30px;
   margin: 0 10px;
-  font-size: 1.5em;
-  color: #3b5998; /* You can change this to match your theme */
+  transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #000; /* You can change this to match your theme */
+  color: #007bff;
 }
 
-footer .row {
-  margin-bottom: 20px;
-}
-
-footer .container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-footer .col-md-4 {
-  padding: 20px;
-}
-
-footer .col-md-4 img {
-  max-width: 100%;
-  height: auto;
-}
-
-footer .col-md-4 h5,
-footer .col-md-6 h5 {
-  margin-bottom: 15px;
+.btn{
+  background-color: rgb(255, 132, 0);
 }

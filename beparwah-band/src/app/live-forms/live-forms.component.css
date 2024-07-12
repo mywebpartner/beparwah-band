@@ -4,20 +4,13 @@ form.d-flex input[type="email"] {
     margin-right: 10px;
   }
   
-  form.d-flex button {
-    white-space: nowrap;
-  }
-  
+
   .social-icons a {
     margin: 0 10px;
     font-size: 1.5em;
     color: #3b5998; /* You can change this to match your theme */
   }
-  
-  .social-icons a:hover {
-    color: #000; /* You can change this to match your theme */
-  }
-  
+
   footer .row {
     margin-bottom: 20px;
   }

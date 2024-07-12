@@ -1,0 +1,35 @@
+.navbar{
+    background: linear-gradient(to right, #1c1c1c, #070303);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+      justify-content: center;
+    }
+  
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+  
+    .navbar-nav .nav-item {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-nav .nav-link {
+      display: block;
+      padding: 10px 0;
+    }
+  }
