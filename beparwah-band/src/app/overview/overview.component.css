@@ -7,20 +7,10 @@
     margin: 0 auto;
   }
   
-  .img-fluid {
-    width: 100%;
-    height: auto;
-    max-width: 1000px; /* Adjust as needed */
-    border-radius: 8px;
-  }
+
   
   .social-icons i {
     font-size: 48px; /* Adjust icon size as needed */
     color: #333; /* Adjust icon color as needed */
     margin: 0 10px;
   }
-  
-  .social-icons i:hover {
-    color: #007bff; /* Change color on hover */
-  }
-  

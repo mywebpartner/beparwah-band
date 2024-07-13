@@ -1,0 +1,13 @@
+.rotated-border {
+    display: inline-block;
+    padding: 10px; /* Adjust the padding as needed */
+    border: 2px solid white; /* Adjust the border color as needed */
+    transform: rotate(-5deg); /* Adjust the rotation angle as needed */
+    margin: 10px; /* Adjust the margin to space out the images */
+  }
+  
+  .rotated-border img {
+    display: block;
+    transform: rotate(5deg); /* Counter the rotation of the border to keep the image straight */
+  }
+  

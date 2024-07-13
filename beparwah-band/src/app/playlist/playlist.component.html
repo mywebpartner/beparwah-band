@@ -1,9 +1,10 @@
-<div class="container mt-5" style="background: linear-gradient(to right, #1c1c1c, #070303) ;color: white">
-    <h2 class="text-center mb-4">Playlist</h2>
-    <div class="row">
-      <div class="col-md-3 mb-4" *ngFor="let image of imagesP">
+<div class="container mt-5" style="background: linear-gradient(to right, #1c1c1c, #070303); color: white;">
+  <h2 class="text-center mb-4">Playlist</h2>
+  <div class="row">
+    <div class="col-md-3 mb-4" *ngFor="let image of imagesP">
+      <div class="rotated-border">
         <img [src]="image" class="img-fluid rounded" alt="Playlist Image">
       </div>
     </div>
   </div>
-  
+</div>
