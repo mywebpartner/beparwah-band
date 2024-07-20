@@ -1,0 +1,23 @@
+<div class="container">
+  <h1 id="live-song-requests"  class="text-left">LIVE SONG REQUESTS</h1>
+
+  <form (ngSubmit)="onSubmit()" #songForm="ngForm">
+    <div class="mb-3">
+      <input [(ngModel)]="form.name" name="name" type="text" class="form-control" placeholder="Name" required>
+    </div>
+
+    <div class="mb-3">
+      <input [(ngModel)]="form.dedicated" name="dedicated" type="text" class="form-control" placeholder="Dedicated to">
+    </div>
+
+    <div class="mb-3">
+      <input [(ngModel)]="form.email" name="email" type="email" class="form-control" placeholder="Email" required email>
+    </div>
+
+    <div class="mb-3">
+      <textarea [(ngModel)]="form.message" name="message" class="form-control" placeholder="Message" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary mb-3" [disabled]="!validateForm()">SEND</button>
+  </form>
+</div>

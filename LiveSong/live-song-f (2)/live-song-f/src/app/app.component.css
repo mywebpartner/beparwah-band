@@ -1,0 +1,29 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    width:500px;
+    height: 35px;
+  }
+#live-song-requests {
+  color: white; 
+  font-size: 50px; 
+  width: 100%; 
+  text-align: left; 
+}
+.btn.btn-primary.mb-3 {
+  font-size: 15px; 
+  padding: 10px 15px; 
+}
+
+
+
+  
